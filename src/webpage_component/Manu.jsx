@@ -1,22 +1,27 @@
 import React from "react";
-import './style.css'
+import "./style.css";
+import { NavLink } from "react-router-dom";
 
 const Manu = () => {
+
   return (
     <>
+    
       <div class="rc_nav" id="centered_nav">
-        <a href="#home" title="Home">
+      <h1 id="title">Sayaib Sarkar</h1>
+        
+        <NavLink exact activeClassName="active_class" className="nav-link" to="/">
           Home
-        </a>
-        <a href="#services" title="Services">
-          Services
-        </a>
-        <a href="#about" title="About">
-          About
-        </a>
-        <a href="#contact" title="Contact">
-          Contact
-        </a>
+        </NavLink>
+        <NavLink exact activeClassName="active_class" className="nav-link" to="/portfolio">
+        Portfolio
+        </NavLink>
+        <NavLink exact activeClassName="active_class" className="nav-link" to="/Codes">
+        Codes
+        </NavLink>
+        <NavLink exact activeClassName="active_class" className="nav-link" to="/contact">
+        Contact
+        </NavLink>
       </div>
     </>
   );

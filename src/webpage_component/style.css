@@ -1,23 +1,28 @@
-body {
-    margin: 0;
-    background-color: #292b31;
-}
+/* body {
+    background-color: #363841;
+} */
 
+#title {
+    color: #64FFDA;
+    font-size: 1.6rem;
+}
 
 .rc_nav {
     overflow: hidden;
     background-color: #363841;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
     z-index: 6;
 }
 
-.rc_nav a {
+.nav-link {
+    margin: 0 5px;
     display: inline-block;
-    margin-right: -4px;
     color: #fff;
-    padding: 22px 22px;
+    padding: 10px 22px;
     text-decoration: none;
-    font-family: Poppins;
     font-size: 18px;
     -webkit-transition: background 0.3s linear;
     -moz-transition: background 0.3s linear;
@@ -25,27 +30,33 @@ body {
     -o-transition: background 0.3s linear;
     transition: background 0.3s linear;
     z-index: 9;
+    text-transform: uppercase;
 }
 
-.rc_nav a:hover {
-    background-color: #575b69;
-}
-
-.rc_nav .icon {
-    display: none;
-}
-
-.rc_content {
-    text-align: center;
-    padding-left: 14px;
-    font-family: Poppins;
-    margin-top: 100px;
-    color: #8e909b;
+.nav-link:hover {
+    transition: 0.7;
 }
 
 @media screen and (max-width: 600px) {
-    .rc_nav a {
-        padding: 22px 22px;
+    .nav-link {
+        padding: 10px 10px;
+        font-size: 1rem;
+    }
+    #title {
+        color: #64FFDA;
+        font-size: 1.5rem;
     }
 
+}
+
+.active_class {
+    background-color: #64FFDA;
+    color: #363841;
+    border-radius: 10px 10px 0 0;
+}
+
+#webpage{
+    background-color: #64FFDA;
+    height: 100vh;
+    width: 100vw;
 }
