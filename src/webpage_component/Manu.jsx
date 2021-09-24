@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+
 import { NavLink } from "react-router-dom";
 
 const Manu = () => {
@@ -7,19 +8,19 @@ const Manu = () => {
   return (
     <>
     
-      <div class="rc_nav" id="centered_nav">
+      <div className="rc_nav" id="centered_nav">
       <h1 id="title">Sayaib Sarkar</h1>
         
-        <NavLink exact activeClassName="active_class" className="nav-link" to="/">
+        <NavLink exact activeClassName="active_class" className="nav_link" to="/">
           Home
         </NavLink>
-        <NavLink exact activeClassName="active_class" className="nav-link" to="/portfolio">
+        <NavLink exact activeClassName="active_class" className="nav_link" to="/portfolio">
         Portfolio
         </NavLink>
-        <NavLink exact activeClassName="active_class" className="nav-link" to="/Codes">
+        <NavLink exact activeClassName="active_class" className="nav_link" to="/codes">
         Codes
         </NavLink>
-        <NavLink exact activeClassName="active_class" className="nav-link" to="/contact">
+        <NavLink exact activeClassName="active_class" className="nav_link" to="/contact">
         Contact
         </NavLink>
       </div>

@@ -9,7 +9,7 @@
 
 .rc_nav {
     overflow: hidden;
-    background-color: #363841;
+    background-color: #000000;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -17,7 +17,7 @@
     z-index: 6;
 }
 
-.nav-link {
+.nav_link {
     margin: 0 5px;
     display: inline-block;
     color: #fff;
@@ -33,15 +33,16 @@
     text-transform: uppercase;
 }
 
-.nav-link:hover {
+.nav_link:hover {
     transition: 0.7;
 }
 
 @media screen and (max-width: 600px) {
-    .nav-link {
+    .nav_link {
         padding: 10px 10px;
         font-size: 1rem;
     }
+
     #title {
         color: #64FFDA;
         font-size: 1.5rem;
@@ -50,13 +51,17 @@
 }
 
 .active_class {
-    background-color: #64FFDA;
-    color: #363841;
+    background-color: #0A192F;
+    color: #A4AFCD;
     border-radius: 10px 10px 0 0;
 }
 
-#webpage{
-    background-color: #64FFDA;
+#webpage {
+    background-color: #0A192F;
     height: 100vh;
     width: 100vw;
+}
+
+.error_page {
+    padding-top: 10rem;
 }
