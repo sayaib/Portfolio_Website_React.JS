@@ -1,7 +1,11 @@
 import React from "react";
 import "./style.css";
-import { FontAwesomeIcon } from  "@fortawesome/react-fontawesome"
-import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { Container, Button } from "react-bootstrap";
 
 const Home = () => {
@@ -27,14 +31,29 @@ const Home = () => {
         </div>
         <div>
           <div className="icon-bar">
-            <a href="#" data-aos="fade-right">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/SarkarSayaib"
+              data-aos="fade-right"
+            >
               <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
             </a>
-            <a href="#" data-aos="fade-right">
-            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/sayaib"
+              data-aos="fade-right"
+            >
+              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-            <a href="#" data-aos="fade-right">
-            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/sayaib-sarkar-847b3b169/"
+              data-aos="fade-right"
+            >
+              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
           </div>
         </div>
