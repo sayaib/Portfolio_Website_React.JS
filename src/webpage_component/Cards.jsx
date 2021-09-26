@@ -1,29 +1,43 @@
 import React from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faLink, faFolder } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { Button, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const Cards = (props) => {
   return (
     <>
       <Card className="portfolio_card">
-        <Card.Img className="card_img" variant="top" src={props.image} />
-        <a href="#">
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-        <a href="#">
-          <FontAwesomeIcon icon={faLink} />
-        </a>
+        <h1
+          style={{ fontSize: "5rem", textAlign: "left", paddingLeft: "1rem" }}
+        >
+          <FontAwesomeIcon icon={faFolder} />
+        </h1>
+        <h3>
+          <a
+            style={{ padding: "0.5rem" }}
+            target="_blank"
+            rel="noreferrer"
+            href={props.githubLink}
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a
+            style={{ padding: "0.5rem" }}
+            target="_blank"
+            rel="noreferrer"
+            href={props.websiteLink}
+          >
+            <FontAwesomeIcon icon={faLink} />
+          </a>
+        </h3>
 
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
+          <p>{props.subtitle}</p>
+          <Card.Text>{props.about}</Card.Text>
         </Card.Body>
       </Card>
     </>

@@ -6,17 +6,24 @@ import CData from "./CData";
 
 const data = (val) => {
   return (
-    <Cards key={val.id} name={val.name} image={val.image} link={val.link} />
+    <Cards
+      key={val.id}
+      name={val.name}
+      subtitle={val.subtitle}
+      about={val.about}
+      githubLink={val.githubLink}
+      websiteLink={val.websiteLink}
+    />
   );
 };
 const Portfolio = () => {
   return (
     <>
       <div id="portfolio_webpage">
-      <h1 style={{paddingBottom:"1rem", textAlign: "center" }}>Some Things I've Built</h1>
-        <div className="portfolio_body">
-          {CData.map(data)}
-        </div>
+        <h1 style={{ paddingBottom: "1rem", textAlign: "center" }}>
+          Some Things I've Built
+        </h1>
+        <div className="portfolio_body">{CData.map(data)}</div>
       </div>
     </>
   );
