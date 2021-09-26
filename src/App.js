@@ -1,5 +1,9 @@
 import './App.css';
 import Manu from './webpage_component/Manu';
+import AOS from "aos";
+import "../node_modules/aos/dist/aos.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from './webpage_component/Home'
@@ -9,6 +13,9 @@ import Contact from './webpage_component/Contact'
 import Error from './webpage_component/Error'
 
 function App() {
+  AOS.init({
+    duration: 1000,
+  });
   return (
     <>
 
