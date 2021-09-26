@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Codes = () => {
+const Articles = () => {
   return (
     <>
       <div id="webpage">
@@ -14,4 +14,4 @@ const Codes = () => {
     </>
   );
 };
-export default Codes;
+export default Articles;
