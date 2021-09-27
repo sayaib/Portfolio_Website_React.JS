@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
-  faMobile,
+  faPhone,
   faPen,
   faSuitcase,
 } from "@fortawesome/free-solid-svg-icons";
@@ -45,7 +45,7 @@ const Manu = () => {
           to="/Articles"
         >
           <FontAwesomeIcon icon={faPen} />
-         <h6> Articles</h6>
+          <h6> Articles</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
@@ -54,7 +54,7 @@ const Manu = () => {
           className="nav_link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faMobile} />
+          <FontAwesomeIcon icon={faPhone} />
           <h6>Contact</h6>
         </NavLink>
       </div>
