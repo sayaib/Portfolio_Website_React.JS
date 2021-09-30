@@ -4,7 +4,7 @@
 #title {
     letter-spacing: 2px;
     font-size: 1.6rem;
-color: #FD2155;
+    color: #FD2155;
     font-family: 'Fredoka One', cursive;
 }
 
@@ -82,19 +82,22 @@ color: #FD2155;
 }
 
 /* Home Page Body Section */
-.home_container{
+.home_container {
     padding-top: 1.5rem;
 }
-.home_page_text{
+
+.home_page_text {
     font-family: 'Montserrat', sans-serif;
     font-size: 80px;
     font-weight: bolder;
 }
+
 @media screen and (max-width:620px) {
-    .home_container{
+    .home_container {
         padding-top: 8rem;
     }
-    .home_page_text{
+
+    .home_page_text {
         font-size: 30px;
     }
 }

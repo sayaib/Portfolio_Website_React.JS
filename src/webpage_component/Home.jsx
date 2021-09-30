@@ -14,13 +14,21 @@ const Home = () => {
       <div id="webpage">
         <div id="webpage_body">
           <Container className="home_container">
-            <h1 className="home_page_text" data-aos="fade-left">Hi,</h1>
             <h1 className="home_page_text" data-aos="fade-left">
-             I'm Sayaib
+              Hi,
             </h1>
-            <h1 className="home_page_text" data-aos="fade-left">web developer</h1>
+            <h1 className="home_page_text" data-aos="fade-left">
+              I'm Sayaib
+            </h1>
+            <h1 className="home_page_text" data-aos="fade-left">
+              web developer
+            </h1>
 
-            <Button className="mt-4" variant="outline-danger" data-aos="fade-left">
+            <Button
+              className="mt-4"
+              variant="outline-danger"
+              data-aos="fade-left"
+            >
               Check out my resume
             </Button>
           </Container>
