@@ -7,6 +7,7 @@ import {
   faPhone,
   faPen,
   faSuitcase,
+  faBrain,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Manu = () => {
@@ -44,7 +45,7 @@ const Manu = () => {
           className="nav_link"
           to="/Articles"
         >
-          <FontAwesomeIcon icon={faPen} />
+          <FontAwesomeIcon icon={faBrain} />
           <h6>My Skills</h6>
         </NavLink>
         <NavLink

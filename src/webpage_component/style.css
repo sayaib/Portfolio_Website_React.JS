@@ -58,14 +58,14 @@ color: #FD2155;
 }
 
 .active_class {
-    background-color: #0A192F;
+    background-color: #1D1D1D;
     color: #64FFDA;
     border-radius: 10px 10px 0 0;
 }
 
 #webpage {
     font-family: 'Noto Sans', sans-serif;
-    background-color: #0A192F;
+    background-color: #1D1D1D;
     color: aliceblue;
     height: 100vh;
     width: 100vw;
@@ -74,7 +74,7 @@ color: #FD2155;
 #webpage_body {
     padding-top: 8rem;
     margin: auto;
-    width: 75%;
+    width: 70%;
 }
 
 .error_page {
@@ -82,6 +82,9 @@ color: #FD2155;
 }
 
 /* Home Page Body Section */
+.home_container{
+    padding-top: 1.5rem;
+}
 .home_page_text{
     font-family: 'Montserrat', sans-serif;
     font-size: 80px;
@@ -89,7 +92,7 @@ color: #FD2155;
 }
 @media screen and (max-width:620px) {
     .home_container{
-        padding:5rem 0 0 0rem;
+        padding-top: 8rem;
     }
     .home_page_text{
         font-size: 30px;
@@ -99,7 +102,7 @@ color: #FD2155;
 /* Social Media Section */
 .icon-bar {
     position: fixed;
-    top: 60%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -122,7 +125,7 @@ color: #FD2155;
 #portfolio_webpage {
     font-family: 'Noto Sans', sans-serif;
     padding-top: 8rem;
-    background-color: #0A192F;
+    background-color: #1D1D1D;
 }
 
 .portfolio_body {

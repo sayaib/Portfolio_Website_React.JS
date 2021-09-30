@@ -9,7 +9,7 @@ import { Card } from "react-bootstrap";
 const Cards = (props) => {
   return (
     <>
-      <div className="portfolio_card">
+      <div className="portfolio_card" data-aos="fade-up">
         <h1
           style={{ fontSize: "5rem", textAlign: "left", paddingLeft: "1rem" }}
         >
