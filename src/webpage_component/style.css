@@ -82,9 +82,6 @@
 }
 
 /* Home Page Body Section */
-.home_container {
-    padding-top: 1.5rem;
-}
 
 .home_page_text {
     font-family: 'Montserrat', sans-serif;
@@ -98,7 +95,7 @@
     }
 
     .home_page_text {
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 }
 
