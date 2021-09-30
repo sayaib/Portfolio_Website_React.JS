@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 #title {
-    color: #ffffff;
     letter-spacing: 2px;
     font-size: 1.6rem;
+color: #FD2155;
     font-family: 'Fredoka One', cursive;
 }
 
@@ -42,8 +43,8 @@
 
 @media screen and (max-width: 600px) {
     .nav_link {
-        padding: 5px 15px;
-        font-size: 1rem;
+        padding: 5px 20px;
+        font-size: 1.1rem;
     }
 
     #title {
@@ -81,7 +82,19 @@
 }
 
 /* Home Page Body Section */
-
+.home_page_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+}
+@media screen and (max-width:620px) {
+    .home_container{
+        padding:5rem 0 0 0rem;
+    }
+    .home_page_text{
+        font-size: 30px;
+    }
+}
 
 /* Social Media Section */
 .icon-bar {

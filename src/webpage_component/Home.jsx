@@ -14,17 +14,11 @@ const Home = () => {
       <div id="webpage">
         <div id="webpage_body">
           <Container className="home_container">
-            <p>Hi, my name is</p>
-            <h1 className="pb-3" style={{ color: "#64FFDA" }}>
-              Sayaib Sarkar
+            <h1 className="home_page_text">Hi,</h1>
+            <h1 className="pb-3 home_page_text">
+             I'm Sayaib
             </h1>
-            <h1>I build things for the web.</h1>
-            <p>
-              I’m a software engineer specializing in building (and occasionally
-              designing) exceptional digital experiences. Currently, I’m focused
-              on building accessible, human-centered products at Upstatement.
-              Check out my course!
-            </p>
+            <h1 className="home_page_text">web developer</h1>
 
             <Button className="mt-4" variant="outline-danger">
               Check out my resume

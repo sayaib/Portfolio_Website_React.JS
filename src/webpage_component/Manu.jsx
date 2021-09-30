@@ -35,7 +35,7 @@ const Manu = () => {
           to="/portfolio"
         >
           <FontAwesomeIcon icon={faSuitcase} />
-          <h6>Portfolio</h6>
+          <h6>Work</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
@@ -45,7 +45,7 @@ const Manu = () => {
           to="/Articles"
         >
           <FontAwesomeIcon icon={faPen} />
-          <h6> Articles</h6>
+          <h6>My Skills</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
