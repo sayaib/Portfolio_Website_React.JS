@@ -126,8 +126,11 @@
     width: 28%;
     height: 350px;
     border: 1px solid #ccc;
+    background-color: aqua;
     margin-bottom: 50px;
     text-align: center;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 
