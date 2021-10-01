@@ -20,9 +20,10 @@ const Home = () => {
             <h1 className="home_page_text" data-aos="fade-down">
               I'm Sayaib
             </h1>
-            <h1 className="home_page_text" data-aos="fade-up">
+            <h1 className="home_page_text" data-aos="fade-down">
               web developer
             </h1>
+            <h5 data-aos="fade-up" >I build things for the web.</h5>
 
             <Button
               className="mt-4"
