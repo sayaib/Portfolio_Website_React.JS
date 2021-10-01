@@ -25,13 +25,9 @@ const Home = () => {
             </h1>
             <h5 data-aos="fade-up" >I build things for the web.</h5>
 
-            <Button
-              className="mt-4"
-              variant="outline-danger"
-              data-aos="fade-up"
-            >
-              Check out my resume
-            </Button>
+         <a href="" >
+           <button data-aos="fade-up" className="homepage_btn mt-3">Check out my resume!</button>
+         </a>
           </Container>
         </div>
         <div>
