@@ -14,20 +14,20 @@ const Home = () => {
       <div id="webpage">
         <div id="webpage_body">
           <Container className="home_container">
-            <h1 className="home_page_text" data-aos="fade-left">
+            <h1 className="home_page_text" data-aos="fade-down">
               Hi,
             </h1>
-            <h1 className="home_page_text" data-aos="fade-left">
+            <h1 className="home_page_text" data-aos="fade-down">
               I'm Sayaib
             </h1>
-            <h1 className="home_page_text" data-aos="fade-left">
+            <h1 className="home_page_text" data-aos="fade-up">
               web developer
             </h1>
 
             <Button
               className="mt-4"
               variant="outline-danger"
-              data-aos="fade-left"
+              data-aos="fade-up"
             >
               Check out my resume
             </Button>
