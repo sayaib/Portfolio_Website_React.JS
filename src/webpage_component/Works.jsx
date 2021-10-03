@@ -16,7 +16,7 @@ const data = (val) => {
     />
   );
 };
-const Portfolio = () => {
+const Works = () => {
   return (
     <>
       <div id="portfolio_webpage">
@@ -31,4 +31,4 @@ const Portfolio = () => {
     </>
   );
 };
-export default Portfolio;
+export default Works;
