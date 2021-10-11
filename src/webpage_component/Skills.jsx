@@ -4,7 +4,7 @@ import "./style.css";
 const Skills = () => {
   return (
     <>
-      <body>
+      <div className="skill_body">
         <div class="skills">
           <p class="skl">MY SKILLS :</p>
           <p class="skl sklLine">_________</p>
@@ -97,7 +97,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 };

@@ -243,10 +243,11 @@
 My Skill section */
 
 
-body {
-    color: white;
-    background: #0e1425;
+.skill_body {
+    color: aliceblue;
+    background: #1D1D1D;
     margin: 0;
+    height: 100vh;
 }
 
 .skills {
@@ -275,15 +276,17 @@ body {
 }
 
 .skillDiv {
-    height: 5px;
+    height: 10px;
     width: 100%;
+    border-radius: 5px;
     background-color: gray;
 }
 
 .skillBar {
     display: block;
-    height: 5px;
-    background-color: rgb(26, 204, 19);
+    height: 10px;
+    border-radius: 5px;
+    background-color: #64FFDA;
 }
 
 .p {
