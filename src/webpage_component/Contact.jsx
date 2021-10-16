@@ -1,14 +1,15 @@
 import React from "react";
 import "./style.css";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import {  } from "react-bootstrap";
+
 
 const Contact = () => {
   return (
     <>
       <div id="webpage">
         <div id="webpage_body">
-          <h1 id="title" data-aos="fade-right">
-            SAYAIB SARKAR
-          </h1>
+         
         </div>
       </div>
     </>
