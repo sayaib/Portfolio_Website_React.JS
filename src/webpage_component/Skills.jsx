@@ -10,7 +10,7 @@ const Skills = () => {
           <p class="skl sklLine">_________</p>
           <div class="htmlProg ProgWidth">
             <div class="p">
-              <p>html</p>
+              <p>HTML</p>
               <p>95%</p>
             </div>
             <div class="pp">
@@ -21,7 +21,7 @@ const Skills = () => {
           </div>
           <div class="cssProg ProgWidth">
             <div class="p">
-              <p>Css3</p>
+              <p>CSS</p>
               <p>70%</p>
             </div>
             <div class="pp">
