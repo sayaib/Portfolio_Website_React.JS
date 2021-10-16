@@ -24,6 +24,8 @@ const Contact = () => {
         }
       );
     e.target.reset();
+
+    alert("sent");
   }
   return (
     <>
